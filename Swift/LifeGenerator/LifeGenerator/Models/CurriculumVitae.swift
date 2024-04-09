@@ -18,16 +18,35 @@ struct CurriculumVitae: Codable {
     /// Most significant educational enrollments
     let educations: [Education]
     
+    /// List of publications
+    let publications: [Publication]
+    
+    /// Free text for grouped skillsets
+    /// E,g,: "Programming" : "Swift", "Java"
+    let skills: [String: [String]]
+    
+    /// Free text with a summary of activities I do in my spare time
+    let activities: [String]
+    
+    /// Free text for other interests and skills that does not fit in any
+    /// categories above.
+    let otherInterests: [String]
+    
     // MARK: - Coding Keys -
     
     enum CodingKeys: String, CodingKey {
         case currentEmployment = "current_employment"
         case recentEmployments = "recent_employments"
         case educations
+        case publications
+        case skills
+        case activities
+        case otherInterests = "other_interests"
     }
     
     // MARK: - CurriculumVitae.Employment -
     
+    /// Company enrollment
     struct Employment: Codable {
         /// Company name
         let company: String
@@ -50,6 +69,7 @@ struct CurriculumVitae: Codable {
     
     // MARK: - CurriculumVitae.Education -
     
+    /// Educational enrollment
     struct Education: Codable {
         /// Name of the instituation
         let name: String
@@ -73,6 +93,21 @@ struct CurriculumVitae: Codable {
             case graduation
             case yearOfGraduation = "year_of_graduation"
         }
+    }
+    
+    // MARK: - CurriculumVitae.Publication -
+    
+    /// Published paper
+    struct Publication: Codable {
+        /// Name of the publication
+        let name: String
+        
+        /// The publisher or event
+        let publisher: String
+        
+        /// Year of publishing
+        /// E.g. 2013
+        let years: Int
     }
 }
 
@@ -132,6 +167,32 @@ extension CurriculumVitae {
                     graduation: "High school diploma",
                     yearOfGraduation: 2009
                 )
+            ],
+            publications: [
+                .init(
+                    name: "Das dynamische Mindesthaltbarkeitsdatum - Auf dem Weg zu einer Echtzeitereignisverarbeitung in der Lebensmittellogistik",
+                    publisher: "DSEP", 
+                    years: 2013
+                )
+            ],
+            skills: [
+                "Soft skills": ["Dedicated to educate people", "Good in creating a team spirit"],
+                "Programming languages": ["Swift", "C#", "Kotlin", "Java"],
+                "Development environments": ["Xcode", "JetBrains Suite", "Visual Studio", "Visual Studio Code"],
+                "Design environments": ["Figma", "Sketch"],
+                "Product lifecycle": ["GitHub Projects", "GitHub Issues", "Atlassian Suite", "Azure DevOps"]
+            ],
+            activities: [
+                "Content creation covering my stuttering and my multiple sclerosis",
+                "Writing articles for one of the biggest German speaking Microsoft sites Dr. Windows",
+                "Tinkering with new technologies",
+                "Trying to close my Apple Watch rings"
+            ],
+            otherInterests: [
+                "Free and Open Source", 
+                "Feeling the sound of music",
+                "Tasting the word locally",
+                "Panda bears"
             ]
         )
     }
