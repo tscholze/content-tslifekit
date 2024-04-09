@@ -8,8 +8,8 @@ I often need some information about myself in apps. I got tired about writing it
 
 ## Structure
 
-`docs/life.json` - The resulting JSON of my life
-`Swift/*` - A JSON generator written in Swift
+- `docs/life.json` - The resulting JSON of my life
+- `Swift/*` - A JSON generator written in Swift
 
 ## Contributing
 
