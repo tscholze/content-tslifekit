@@ -13,12 +13,11 @@ All informationin the [`life.json`](docs/life.json) are screened if I want to pu
 - `socialmedia`: Provides information about my social media accounts
 - `curriculumvitae`: A summary of my career and my education like a brief CV
 - `contentcreation`: Provides a list of all my content I created to motivate people to tinker around with IT or to educate them about my stuttering and my multiple sclerosis
-- `projectfamilies`: Contains a list of all my larger spare time projects, mostly POCs, that I grouped in their technology like "Kotlin/Native on Raspberry Pi"
+- `open_source`: Contains a list of all my larger spare time projects, mostly POCs, that I grouped in their technology like "Kotlin/Native on Raspberry Pi"
 
 ## Structure
 
 - `docs/life.json` - The resulting JSON of my life
-- `Swift/*` - A JSON generator written in Swift
 
 ## Contributing
 

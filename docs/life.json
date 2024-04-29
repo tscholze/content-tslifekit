@@ -1,325 +1,320 @@
 {
-    "last_updated": "2024-04-09T16:50:21Z",
+    "last_updated": "2024-04-29T08:43:08.497766+02:00",
+    "version": "0.1.0",
     "language": "en",
-    "version": "1.0.0",
     "persona": {
+        "firstname": "Tobias",
+        "lastname": "Scholze",
+        "nicknames": [
+            "The Stuttering Nerd",
+            "Tobonaut"
+        ],
         "location_path": [
-            "Europe",
             "Germany",
             "Bavaria",
             "Augsburg"
         ],
-        "year_of_birth": 1988,
-        "academic_title": "BSc.",
-        "lastname": "Scholze",
         "languages": [
-            "de",
-            "en"
+            "German",
+            "Emglish"
         ],
-        "firstname": "Tobias",
-        "nicknames": [
-            "The Stuttering Nerd",
-            "Tobonaut"
-        ]
+        "year_of_birth": 1985,
+        "academic_title": "Bachelor of Science"
     },
-    "contentcreation": [
+    "content_creation_profiles": [
         {
-            "platform": "youtube",
-            "profile_url": "https:\/\/www.youtube.com\/user\/TobiasScholze",
-            "description": "From the life of a stuttering nerd with multiple sclerosis.",
             "name": "Tobias Scholze - The Stuttering Nerd",
-            "language": "de"
+            "platform": "youtube",
+            "description": "From the life of a stuttering nerd with multiple sclerosis",
+            "language": "de",
+            "profile_url": "https://www.youtube.com/user/TobiasScholze"
         },
         {
-            "description": "Education about the topics of stuttering, multiple sclerosis and nerdiness.",
             "name": "The Stuttering Nerd",
             "platform": "tiktok",
-            "profile_url": "https:\/\/www.tiktok.com\/@the_stuttering_nerd",
-            "language": "de"
+            "description": "Education about the topics of stuttering, multiple sclerosis and nerdiness",
+            "language": "de",
+            "profile_url": "https://www.tiktok.com/@the_stuttering_nerd"
         },
         {
-            "profile_url": "https:\/\/www.instagram.com\/the_stuttering_nerd\/",
+            "name": "@the_stuttering_nerd",
             "platform": "instagram",
             "description": "Things from the everyday life of a nerd who stutters with multiple sclerosis.",
-            "name": "@the_stuttering_nerd",
-            "language": "de"
+            "language": "de",
+            "profile_url": "https://www.instagram.com/the_stuttering_nerd/"
         },
         {
+            "name": "La-La-Laber doch! Der Stotter Podcast",
+            "platform": "podcast",
+            "description": "In this podcast experiment I would like to pull myself out of my comfort zone and dare to do something that I have always shied away from. I speak - in public and even in front of people who are unfamiliar with the picture",
             "language": "de",
-            "description": "I write articles about the fun of IT and its tinkering on one of the largest German-language Microsoft sites.",
-            "name": "Dr. Windows",
+            "profile_url": "https://tscholze.github.io/podcast-la-la-laber-doch"
+        },
+        {
+            "name": "Dr. Window",
             "platform": "news",
-            "profile_url": "https:\/\/www.drwindows.de\/news\/author\/tobias"
+            "description": "I write articles about the fun of IT and its tinkering on one of the largest German-language Microsoft sites.",
+            "language": "de",
+            "profile_url": "https://www.drwindows.de/news/author/tobias"
         },
         {
             "name": "DualScreen Tobbo",
-            "language": "en",
-            "description": "My toughts on playing around with the Microsoft Surface and its SDKs and showing the joy tinkering with this new device category.",
             "platform": "medium",
-            "profile_url": "https:\/\/dualscreentobbo.medium.com"
+            "description": "My toughts on playing around with the Microsoft Surface and its SDKs and showing the joy tinkering with this new device category",
+            "language": "en",
+            "profile_url": "https://dualscreentobbo.medium.com"
         },
         {
-            "platform": "medium",
-            "language": "de",
             "name": "DevRel Tobbo",
-            "profile_url": "https:\/\/devreltobbo.medium.com",
-            "description": "It's my kind of role play in which I pretend I'm a DevRel engineer for various software development topics."
-        },
-        {
-            "profile_url": "https:\/\/tscholze.github.io\/blog\/",
-            "language": "en",
-            "name": "Personal Blog",
-            "platform": "blog",
-            "description": "My blog stores articles about things I made, I expierenced and all other information I do not want to forget."
-        },
-        {
+            "platform": "medium",
+            "description": "It's my kind of role play in which I pretend I'm a DevRel engineer for various software development topics.",
             "language": "de",
-            "description": "In this podcast experiment I would like to pull myself out of my comfort zone and dare to do something that I have always shied away from. I speak - in public and even in front of people who are unfamiliar with the picture.",
-            "platform": "podcast",
-            "profile_url": "https:\/\/tscholze.github.io\/podcast-la-la-laber-doch",
-            "name": "La-La-Laber doch! Der Stotter Podcast"
+            "profile_url": "https://devreltobbo.medium.com"
+        },
+        {
+            "name": "Personal blog",
+            "platform": "blog",
+            "description": "My blog stores articles about things I made, I expierenced and all other information I do not want to forget",
+            "language": "en",
+            "profile_url": "https://tscholze.github.io/blog/"
         }
     ],
-    "projectfamilies": [
-        {
-            "name": "KPi - Kotlin\/Native <3 Pi",
-            "projects": [
-                {
-                    "description": "Reading values from a BMP280 and TC sensor in addition to controlling some LEDs",
-                    "imageUrl": "https:\/\/github.com\/tscholze\/kotlin-kpi-native-enviro\/raw\/main\/__docs\/socialmedia.png",
-                    "name": "KPi.Enviro",
-                    "githubUrl": "https:\/\/github.com\/tscholze\/kotlin-kpi-native-enviro\/",
-                    "programming_language": "kotlin"
-                },
-                {
-                    "name": "KPi.Blinkt",
-                    "description": "Web- and curl-interface to let a Pimoroni Blinkt HAT shine, morse and do other things.",
-                    "programming_language": "kotlin",
-                    "imageUrl": "https:\/\/raw.githubusercontent.com\/tscholze\/kotlin-kpi-native-blinkt\/main\/_docs\/socialmedia.png",
-                    "githubUrl": "https:\/\/github.com\/tscholze\/kotlin-kpi-native-blinkt\/"
-                }
-            ],
-            "description": "Kotlin\/Native meets Raspberry Pi meets Pimoroni Sensors",
-            "image_url": "https:\/\/tscholze.github.io\/blog\/files\/pf-kpi-logo.png"
-        },
-        {
-            "name": "Kotlin and Compose Multiplatform prototypes ",
-            "projects": [
-                {
-                    "imageUrl": "https:\/\/github.com\/tscholze\/blog\/blob\/main\/docs\/files\/pf-hb-kennzeichner.png?raw=true",
-                    "githubUrl": "https:\/\/github.com\/tscholze\/kotlin-kmm-kennzeichner?tab=readme-ov-file",
-                    "programming_language": "kotlin",
-                    "name": "Kennzeichner",
-                    "description": "The app(s) will provide a look for for German license plate IDs such as 'A' for Augsburg, 'M' for Munich, etc. pp. The long time goal is to roll out this limited set of features to more KMP-able platforms such as desktop or the web."
-                }
-            ],
-            "image_url": "https:\/\/github.com\/tscholze\/blog\/blob\/main\/docs\/files\/pf-kmp-logo.png?raw=true",
-            "description": "With Kotlin and Compose Multiplatform there's a new player in the cross platform development world. Let's see how it performs!"
-        },
-        {
-            "description": "Windows 10 IoT Core meets C# and .NET, Raspberry Pi, meets Pimoroni HATs",
-            "image_url": "https:\/\/github.com\/tscholze\/blog\/blob\/main\/docs\/files\/pf-hb-logo-2.png?raw=true",
-            "projects": [
-                {
-                    "imageUrl": "https:\/\/github.com\/tscholze\/dotnet-iot-homebear-tilt\/raw\/master\/docs\/on-device-screenshot.jpg",
-                    "name": "HomeBear.Tilt",
-                    "description": "Using a robot tilting arm to have a camera that detects your faces? This UWP provides such PoC functionality. All running on a Raspberry Pi.",
-                    "githubUrl": "https:\/\/github.com\/tscholze\/dotnet-iot-homebear-tilt",
-                    "programming_language": "csharp"
-                },
-                {
-                    "description": "Controlling a Pimoroni RainbowHAT using Windows 10 IoT Core and C#",
-                    "githubUrl": "https:\/\/github.com\/tscholze\/dotnet-iot-homebear-rainbow",
-                    "imageUrl": "https:\/\/github.com\/tscholze\/blog\/blob\/main\/docs\/files\/pf-hb-rainbow.png?raw=true",
-                    "programming_language": "csharp",
-                    "name": "HomeBear.Rainbow"
-                },
-                {
-                    "name": "HomeBear.Blinkt",
-                    "programming_language": "csharp",
-                    "description": "An IoT app that provides an on-device UI for controlling multiple aspects of a Pimoroni BlinktHAT",
-                    "imageUrl": "https:\/\/github.com\/tscholze\/blog\/blob\/main\/docs\/files\/pf-hb-blinkt.png?raw=true",
-                    "githubUrl": "https:\/\/github.com\/tscholze\/dotnet-iot-homebear-blinkt"
-                }
-            ],
-            "name": "HomeBear - Windows 10 + Pi + Pimoroni = <3"
-        },
-        {
-            "projects": [
-                {
-                    "programming_language": "csharp",
-                    "name": "Road To Surface Duo",
-                    "githubUrl": "https:\/\/github.com\/tscholze\/xamarin-road-to-surface-duo",
-                    "imageUrl": "https:\/\/github.com\/tscholze\/xamarin-road-to-surface-duo\/raw\/master\/docs\/ui-app-duo.jpg",
-                    "description": "In anticipation of the release of the Microsoft Surface Duo, I wrote for Dr. Windows wrote a multi-part series of articles that should make you want to develop for the device"
-                },
-                {
-                    "imageUrl": "https:\/\/github.com\/tscholze\/flutter-surfaceduo-rssbook\/raw\/main\/docs\/screenshots-ds.png?raw=true",
-                    "githubUrl": "https:\/\/github.com\/tscholze\/flutter-surfaceduo-rssbook",
-                    "name": "RssBook",
-                    "description": "A RSS reader in a book-ish design that uses both screens of the Surface Duo",
-                    "programming_language": "flutter"
-                },
-                {
-                    "imageUrl": "https:\/\/github.com\/tscholze\/xamarin-surface-duo-hinge-it\/blob\/master\/docs\/summary.png?raw=true",
-                    "githubUrl": "https:\/\/github.com\/tscholze\/xamarin-surface-duo-hinge-it",
-                    "programming_language": "csharp",
-                    "description": "A gamification app that uses the hinge of the Duo to guess it's angle.",
-                    "name": "Hinge It!"
-                },
-                {
-                    "name": "DuoBahn",
-                    "description": "An app that shows you all kind of information around German Autobahn information and webcams. Cancelled due to shut down webcams because of Ukrainian war",
-                    "githubUrl": "https:\/\/github.com\/tscholze\/kotlin-surfaceduo-duobahn",
-                    "programming_language": "kotlin",
-                    "imageUrl": "https:\/\/www.drwindows.de\/news\/wp-content\/uploads\/2022\/08\/duo_bahn_app.png"
-                }
-            ],
-            "description": "Two separate screens on a single device? Yes, the Duo was a great device",
-            "image_url": "https:\/\/github.com\/tscholze\/blog\/blob\/main\/docs\/files\/pf-duo-logo.png",
-            "name": "Surface Duo shenanigans"
-        },
-        {
-            "projects": [
-                {
-                    "githubUrl": "https:\/\/github.com\/tscholze\/java-android-things-firebase-pager",
-                    "programming_language": "java",
-                    "description": "Show your Firebase messages on a 8-segment display using a Raspberry Pi",
-                    "imageUrl": "https:\/\/github.com\/tscholze\/java-android-things-firebase-pager\/raw\/master\/docs\/scheme.png",
-                    "name": "Things Pager"
-                },
-                {
-                    "description": "Control a Pimoroni STS Pi vehicle via a web interface and your voice. Everything is based on an Android Things app that runs on a Raspberry Pi",
-                    "name": "ToboT",
-                    "imageUrl": "https:\/\/tscholze.github.io\/blog\/assets\/java-android-tobot-5.png",
-                    "githubUrl": "https:\/\/github.com\/tscholze\/java-android-things-tobot",
-                    "programming_language": "java"
-                }
-            ],
-            "image_url": "https:\/\/github.com\/tscholze\/blog\/blob\/main\/docs\/files\/pf-at-logo",
-            "name": "Android Things Tinkerings",
-            "description": "Google Android Things on a Raspberry Pi was a very fun time and I tinkered some apps that uses Pimoroni Hardware."
-        },
-        {
-            "name": "Python wrangling",
-            "description": "Sometimes I need to use the snake to catch some fun",
-            "projects": [
-                {
-                    "githubUrl": "https:\/\/github.com\/tscholze\/python-enviro-gdocs-logger",
-                    "programming_language": "python",
-                    "description": "Uses the Pimoroni Enviro HAT to log specific values to a Google Drive Sheets document.",
-                    "imageUrl": "https:\/\/raw.githubusercontent.com\/tscholze\/python-enviro-gdocs-logger\/master\/docs\/dashboard.png",
-                    "name": "Enviro HAT to Google Drive Sheets logger"
-                },
-                {
-                    "description": "Uses the Pimoroni EnviroHAT to log specific values via Microsoft Graph API to an Online Excel Sheet document.",
-                    "name": "Enviro HAT to Excel Online logger",
-                    "imageUrl": "https:\/\/github.com\/tscholze\/python-enviro-excel-online-logger\/blob\/master\/docs\/dashboard.PNG?raw=true",
-                    "programming_language": "python",
-                    "githubUrl": "https:\/\/github.com\/tscholze\/python-enviro-excel-online-logger"
-                }
-            ],
-            "image_url": "https:\/\/github.com\/tscholze\/blog\/blob\/main\/docs\/files\/pf-python-raspberry-logo.png"
-        }
-    ],
-    "curriculumvitae": {
-        "publications": [
+    "open_source": {
+        "tag_line": "Tobias Scholze, Senior Software Engineer for Enterprise-grade mobile applications, community enthusiast",
+        "motivation": "I want to spark the joy of software engineering in everyone who is intereset in computer sciene. That's my motication to create simple but educational open source projects to provide an entry in this world of fun.",
+        "github_username": "tscholze",
+        "github_profile_url": "https://github.com/tscholze",
+        "project_families": [
             {
-                "publisher": "DSEP",
-                "years": 2013,
-                "name": "Das dynamische Mindesthaltbarkeitsdatum - Auf dem Weg zu einer Echtzeitereignisverarbeitung in der Lebensmittellogistik"
-            }
-        ],
-        "educations": [
-            {
-                "description": "Course of study: Computer Science",
-                "year_of_graduation": 2013,
-                "graduation": "BSc.",
-                "name": "University of Applied Sciene Augsburg"
+                "name": "Kpi - Kotlin/Native <3 Raspberry Pi",
+                "description": "Using Kotlin/Native with C-Bindings on a Raspberry Pi to work with some Pimoroni boards",
+                "projects": [
+                    {
+                        "name": "KPi.Enviro",
+                        "description": "Reading values from a BMP280 and TC3472 sensor in addition to controlling some LEDs",
+                        "image_url": "https://github.com/tscholze/kotlin-kpi-native-enviro/blob/main/__docs/socialmedia.png",
+                        "github_url": "https://github.com//tscholze/kotlin-kpi-native-enviro",
+                        "programming_language": "kotlin"
+                    },
+                    {
+                        "name": "KPi.Blinkt",
+                        "description": "Web- and curl-interface to let a Pimoroni Blinkt HAT shine, morse and do other things",
+                        "image_url": "https://raw.githubusercontent.com/tscholze/kotlin-kpi-native-blinkt/main/_docs/socialmedia.png",
+                        "github_url": "https://github.com//tscholze/kotlin-kpi-native-enviro",
+                        "programming_language": "kotlin"
+                    }
+                ],
+                "image_url": "https://tscholze.github.io/blog/files/pf-kpi-logo.png"
             },
             {
-                "year_of_graduation": 2009,
-                "description": "Subject: Mathematic, Physics",
-                "graduation": "High school diploma",
-                "name": "Berufsoberschule Augsburg"
+                "name": "HomeBear - Windows 10 + Pi + Pimoroni = <3",
+                "description": "Windows 10 IoT Core meets C# and .NET, Raspberry Pi, meets Pimoroni HATs",
+                "projects": [
+                    {
+                        "name": "HomeBear.Tilt",
+                        "description": "Using a robot tilting arm to have a camera that detects your faces? This UWP provides such PoC functionality. All running on a Raspberry Pi.",
+                        "image_url": "https://github.com/tscholze/dotnet-iot-homebear-tilt/raw/master/docs/on-device-screenshot.jpg",
+                        "github_url": "https://github.com/tscholze/dotnet-iot-homebear-tilt",
+                        "programming_language": "csharp"
+                    },
+                    {
+                        "name": "HomeBear.Rainbow",
+                        "description": "Controlling a Pimoroni RainbowHAT using Windows 10 IoT Core and C#",
+                        "image_url": "https://github.com/tscholze/blog/blob/main/docs/files/pf-hb-rainbow.png?raw=true",
+                        "github_url": "https://github.com/tscholze/dotnet-iot-homebear-rainbow",
+                        "programming_language": "csharp"
+                    },
+                    {
+                        "name": "HomeBear.Blinkt",
+                        "description": "An IoT app that provides an on-device UI for controlling multiple aspects of a Pimoroni BlinktHAT",
+                        "image_url": "https://github.com/tscholze/blog/blob/main/docs/files/pf-hb-blinkt.png?raw=true",
+                        "github_url": "https://github.com/tscholze/dotnet-iot-homebear-blinkt",
+                        "programming_language": "csharp"
+                    }
+                ],
+                "image_url": "https://tscholze.github.io/blog/files/pf-hb-logo.png"
+            },
+            {
+                "name": "Surface Duo shenanigans",
+                "description": "Two separate screens on a single device? Yes, the Duo was a great device",
+                "projects": [
+                    {
+                        "name": "Road To Surface Duo",
+                        "description": "In anticipation of the release of the Microsoft Surface Duo, I wrote for Dr. Windows wrote a multi-part series of articles that should make you want to develop for the device",
+                        "image_url": "https://github.com/tscholze/xamarin-road-to-surface-duo/raw/master/docs/ui-app-duo.jpg",
+                        "github_url": "https://github.com/tscholze/xamarin-road-to-surface-duo",
+                        "programming_language": "csharp"
+                    },
+                    {
+                        "name": "RssBook",
+                        "description": "A RSS reader in a book-ish design that uses both screens of the Surface Duo",
+                        "image_url": "https://github.com/tscholze/flutter-surfaceduo-rssbook/raw/main/docs/screenshots-ds.png?raw=true",
+                        "github_url": "https://github.com/tscholze/flutter-surfaceduo-rssbook",
+                        "programming_language": "flutter"
+                    },
+                    {
+                        "name": "Hinge It!",
+                        "description": "A gamification app that uses the hinge of the Duo to guess it's angle.",
+                        "image_url": "https://github.com/tscholze/xamarin-surface-duo-hinge-it/blob/master/docs/summary.png?raw=true",
+                        "github_url": "https://github.com/tscholze/xamarin-surface-duo-hinge-it",
+                        "programming_language": "csharp"
+                    },
+                    {
+                        "name": "DuoBahn",
+                        "description": "An app that shows you all kind of information around German Autobahn information and webcams. Cancelled due to shut down webcams because of Ukrainian war",
+                        "image_url": "https://www.drwindows.de/news/wp-content/uploads/2022/08/duo_bahn_app.png",
+                        "github_url": "https://github.com/tscholze/kotlin-surfaceduo-duobahn",
+                        "programming_language": "csharp"
+                    }
+                ],
+                "image_url": "https://tscholze.github.io/blog/files/pf-duo-logo.png"
+            },
+            {
+                "name": "Android Things Tinkerings",
+                "description": "Google Android Things on a Raspberry Pi was a very fun time and I tinkered some apps that uses Pimoroni Hardware",
+                "projects": [
+                    {
+                        "name": "ToboT",
+                        "description": "Control a Pimoroni STS Pi vehicle via a web interface and your voice. Everything is based on an Android Things app that runs on a Raspberry Pi",
+                        "image_url": "https://tscholze.github.io/blog/assets/java-android-tobot-5.png",
+                        "github_url": "https://github.com/tscholze/java-android-things-tobot",
+                        "programming_language": "java"
+                    },
+                    {
+                        "name": "Things Pager",
+                        "description": "Show your Firebase messages on a 8-segment display using a Raspberry Pi",
+                        "image_url": "https://github.com/tscholze/java-android-things-firebase-pager/raw/master/docs/scheme.png",
+                        "github_url": "https://github.com/tscholze/java-android-things-firebase-pager",
+                        "programming_language": "java"
+                    }
+                ],
+                "image_url": "https://github.com/tscholze/blog/blob/main/docs/files/pf-at-logo"
+            },
+            {
+                "name": "Python wrangling",
+                "description": "Sometimes I need to use the snake to catch some fun",
+                "projects": [
+                    {
+                        "name": "Enviro HAT to Excel Online logger",
+                        "description": "Uses the Pimoroni EnviroHAT to log specific values via Microsoft Graph API to an Online Excel Sheet document",
+                        "image_url": "https://github.com/tscholze/python-enviro-excel-online-logger/blob/master/docs/dashboard.PNG?raw=true",
+                        "github_url": "https://github.com/tscholze/python-enviro-excel-online-logger",
+                        "programming_language": "python"
+                    },
+                    {
+                        "name": "Enviro HAT to Google Drive Sheets logger",
+                        "description": "Uses the Pimoroni Enviro HAT to log specific values to a Google Drive Sheets document",
+                        "image_url": "https://raw.githubusercontent.com/tscholze/python-enviro-gdocs-logger/master/docs/dashboard.png",
+                        "github_url": "https://github.com/tscholze/python-enviro-gdocs-logger",
+                        "programming_language": "python"
+                    }
+                ],
+                "image_url": "https://github.com/tscholze/blog/blob/main/docs/files/pf-python-raspberry-logo.png"
             }
-        ],
+        ]
+    },
+    "curriculumvitae": {
         "current_employment": {
             "company": "anfema GmbH",
+            "role": "Senior Software Engineer for iOS and iPadOS",
             "tasks": [
                 "Planning, development and maintanance of B2B grade for iOS and iPadOS with focus on HR and industriy 4.0",
                 "Helping customers to understand how apps can transform their work life",
                 "Onboarding of new team members",
                 "Planning and management of multi-division tasks"
             ],
-            "role": "Senior Software Engineer",
-            "joined": "2015-11-01"
+            "joined": "11-2015",
+            "left": null
         },
-        "activities": [
-            "Content creation covering my stuttering and my multiple sclerosis",
-            "Writing articles for one of the biggest German speaking Microsoft sites Dr. Windows",
-            "Tinkering with new technologies",
-            "Trying to close my Apple Watch rings"
-        ],
         "recent_employments": [
             {
-                "joined": "2015-11-01",
                 "company": "anfema GmbH",
+                "role": "Senior Software Engineer for iOS and iPadOS",
                 "tasks": [
                     "Planning, development and maintanance of B2B grade for iOS and iPadOS with focus on HR and industriy 4.0",
                     "Helping customers to understand how apps can transform their work life",
                     "Onboarding of new team members",
                     "Planning and management of multi-division tasks"
                 ],
-                "role": "Senior Software Engineer"
+                "joined": "11-2015",
+                "left": null
             },
             {
-                "joined": "2015-04-01",
+                "company": "NCR Deutschland GmbH",
+                "role": "Java Software Engineer",
                 "tasks": [
                     "Maintanance of a management platform for ATMs in the GSA (DACH) region",
                     "Creating concepts on how to modernise the user expierence of the platform"
                 ],
-                "role": "Java Spring Developer",
-                "left": "2015-11-31",
-                "company": "NCR Germany"
+                "joined": "04-2015",
+                "left": "10-2015"
             },
             {
+                "company": "Media Decision GmbH",
+                "role": "Java / C# Software Engineer",
                 "tasks": [
                     "Planning and development of an ad real time bidding system written in Java EE and JSF",
                     "Developing a ad platform agnostic analytic tool for performance marketing KPIs in C# and Silverlight"
                 ],
-                "company": "Media Decision GmbH",
-                "role": "C# \/ Java EE Developer",
-                "left": "2015-03-31",
-                "joined": "2013-04-01"
+                "joined": "04-2013",
+                "left": "03-2015"
             }
         ],
-        "skills": {
-            "Programming languages": [
+        "educations": [
+            {
+                "institution": "University of Applied Sciene Augsburg",
+                "description": "Course of study: Computer Science",
+                "graduation": "Bachelor of Science",
+                "year_of_graduation": 2013
+            },
+            {
+                "institution": "Städtische Berufoberschule Augsburg",
+                "description": "Subject: Mathematic, Physics",
+                "graduation": "High school diplom",
+                "year_of_graduation": 2009
+            }
+        ],
+        "publications": [
+            {
+                "title": "Das dynamische Mindesthaltbarkeitsdatum - Auf dem Weg zu einer Echtzeitereignisverarbeitung in der Lebensmittellogistik",
+                "publisher": "DSEP",
+                "year": 2013
+            }
+        ],
+        "activities": [
+            "Content creation covering my stuttering and my multiple sclerosis",
+            "Writing articles for one of the biggest German speaking Microsoft sites Dr. Windows",
+            "Tinkering with Raspberry Pis and new technologies",
+            "Trying to close my Apple Watch rings"
+        ],
+        "skillset": {
+            "programming_languages": [
                 "Swift",
                 "C#",
                 "Kotlin",
                 "Java"
             ],
-            "Product lifecycle": [
-                "GitHub Projects",
-                "GitHub Issues",
-                "Atlassian Suite",
+            "product_lifecycle_tooling": [
+                "GitHub product family",
+                "Atlassian product family",
                 "Azure DevOps"
             ],
-            "Development environments": [
+            "development_environments": [
                 "Xcode",
-                "JetBrains Suite",
+                "JetBrains product family",
                 "Visual Studio",
                 "Visual Studio Code"
             ],
-            "Soft skills": [
-                "Dedicated to educate people",
-                "Good in creating a team spirit"
-            ],
-            "Design environments": [
+            "designt_environments": [
                 "Figma",
-                "Sketch"
+                "Sketch",
+                "Zepelin"
+            ],
+            "soft_skills": [
+                "Take ownership of your work",
+                "Embraces change and stay open to learning new technologies",
+                "Collaborates effectively with engineers, stakeholders, and team members",
+                "Good in creating a team spirit"
             ]
         },
         "other_interests": [
@@ -329,37 +324,26 @@
             "Panda bears"
         ]
     },
-    "min_required_client_version": "1",
     "socialmedia": [
+        {
+            "username": "Tobias Scholze",
+            "platform": "linkedin",
+            "profile_url": "https://linkedin.com/in/tobias-scholze-4301b518"
+        },
+        {
+            "username": "@tscholze",
+            "platform": "github",
+            "profile_url": "https://github.com/tscholze"
+        },
         {
             "username": "@tobonaut",
             "platform": "twitter",
-            "profile_url": "https:\/\/twitter.com\/tobonaut"
+            "profile_url": "https://twitter.com/tobonaut"
         },
         {
-            "profile_url": "https:\/\/mastodon.social\/@tobonaut",
-            "platform": "mastodon",
-            "username": "@tobonaut"
-        },
-        {
-            "profile_url": "https:\/\/www.instagram.com\/the_stuttering_nerd\/",
-            "username": "@the_stuttering_nerd",
-            "platform": "instagram"
-        },
-        {
-            "platform": "linkedin",
-            "profile_url": "https:\/\/www.linkedin.com\/in\/tobias-scholze-4301b5187\/",
-            "username": "Tobias Scholze"
-        },
-        {
-            "username": "tscholze",
-            "profile_url": "https:\/\/github.com\/tscholze",
-            "platform": "github"
-        },
-        {
-            "platform": "tiktok",
-            "username": "The Stuttering Nerd",
-            "profile_url": "https:\/\/www.tiktok.com\/@the_stuttering_nerd"
+            "username": "@tobonaut",
+            "platform": "Mastodon",
+            "profile_url": "https://mastodon.social/@tobonaut"
         }
     ]
 }
